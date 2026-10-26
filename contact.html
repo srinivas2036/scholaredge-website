@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — ScholarEdge</title>
+  <meta name="description" content="Get in touch with ScholarEdge about manuscript development, thesis development, or research consultancy." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html"><span class="mark">SE</span> ScholarEdge</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="domains.html">Domains</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="btn btn-outline" href="contact.html">Talk to us</a>
+        <button class="nav-toggle" aria-label="Menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Get in touch</h1>
+      <p>Use the chat assistant in the bottom-right corner for a quick guided conversation, or fill out the form below. Either way, it reaches our inbox directly — no account or sign-up needed.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <form id="contact-form" class="card" style="max-width:680px;margin:0 auto;">
+        <h2>Send us a message</h2>
+        <div class="form-grid">
+          <div>
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="service">What do you need?</label>
+            <select id="service" name="service">
+              <option>Manuscript development</option>
+              <option>Thesis development</option>
+              <option>Research consultancy</option>
+              <option>Just exploring</option>
+            </select>
+          </div>
+          <div>
+            <label for="domain">Engineering domain</label>
+            <select id="domain" name="domain">
+              <option>Civil Engineering</option>
+              <option>Mechanical Engineering</option>
+              <option>Electrical & Electronics</option>
+              <option>Computer Science & AI</option>
+              <option>Environmental Engineering</option>
+              <option>Biomedical Engineering</option>
+              <option>Chemical Engineering</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="full">
+            <label for="message">Tell us about your project</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:18px;">Send message</button>
+        <div id="contact-status" class="form-status"></div>
+      </form>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container" style="text-align:center;">
+      <h2>Prefer email?</h2>
+      <p>Reach us directly at <a href="mailto:srinivas2036@gmail.com">srinivas2036@gmail.com</a>.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>ScholarEdge</h4>
+          <p>Manuscript development, thesis development, and research consultancy for engineering researchers worldwide.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="services.html">Services</a>
+          <a href="domains.html">Domains</a>
+          <a href="about.html">About</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="mailto:srinivas2036@gmail.com">srinivas2036@gmail.com</a>
+          <a href="contact.html">Contact form</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ScholarEdge. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>
