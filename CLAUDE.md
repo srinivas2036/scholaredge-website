@@ -73,7 +73,7 @@ variables — nothing is persisted in localStorage/sessionStorage beyond the cur
 
 1. Create a free account at EmailJS (https://www.emailjs.com).
 2. Add an Email Service (e.g., Gmail) connected to the inbox that should receive leads
-   (srinivas2036@gmail.com by default).
+   (xyz@gmail.com by default).
 3. Create two templates:
    - **Lead notification** — sent to the owner, includes all captured fields.
    - **Auto-reply** (optional) — sent to the visitor's email confirming receipt.

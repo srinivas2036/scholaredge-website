@@ -12,7 +12,7 @@
  *  4. Copy the Public Key, Service ID, and both Template IDs here.
  */
 window.SITE_CONFIG = {
-  OWNER_EMAIL: "srinivas2036@gmail.com",
+  OWNER_EMAIL: "xyz@gmail.com",
 
   EMAILJS_PUBLIC_KEY: "YOUR_EMAILJS_PUBLIC_KEY",
   EMAILJS_SERVICE_ID: "YOUR_EMAILJS_SERVICE_ID",
